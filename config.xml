@@ -26,7 +26,10 @@
     <preference name="android-minSdkVersion" value="14" />
     <preference name="android-targetSdkVersion" value="26" />
     
-    <plugin name="cordova-plugin-cordovarduino" spec="0.0.10" />
+    <feature name="Network Information">
+    <param name="id" value="org.apache.cordova.cordovarduino" />
+    <param name="version" value="0.0.10" />
+    </feature>
     <plugin name="cordova-plugin-whitelist" source="npm" />
     
     <access origin="*" subdomains="true" />
