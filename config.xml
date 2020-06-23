@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.digitalmotor.hellomobil" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>phonecap-andurino</name>
+<widget id="com.digitalmotor.arduino" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>arduino</name>
     <description>
         Phone and Arduino
     </description>
@@ -25,6 +25,8 @@
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
     <preference name="android-targetSdkVersion" value="25" />
+    
+    <icon src="icon.png" />
     
     <plugin name="cordovarduino" source="npm" />
     <plugin name="cordova-plugin-whitelist" source="npm" />
